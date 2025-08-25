@@ -1,0 +1,30 @@
+# CLion / IntelliJ
+.idea/
+cmake-build-*/
+# Optional explicit build dirs
+build/
+out/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
+# macOS
+.DS_Store
+*.dSYM/
+*.DS_Store
+
+# Compiled objects
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Logs / runtime
+*.log
+/netbird-reconnectd
