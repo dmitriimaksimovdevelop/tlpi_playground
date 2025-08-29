@@ -8,7 +8,7 @@
 #define OUT_FLAGS (O_WRONLY | O_CREAT | O_APPEND)
 
 int main(int argc, char *argv[]) {
-    char buf[]= "hello world hui\n";
+    char buf[]= "hello world\n";
 
     if (argc != 2) {
         fprintf(stderr, "Usage: %s <outfile>\n", argv[0]);
